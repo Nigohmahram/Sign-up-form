@@ -91,7 +91,7 @@ img{
      --site-font-weight5: 500 ;
      --site-font-weight6: 600 ;
      --site-font-weight7: 700 ;
-     --site-font-family: "./font/Inter";
+     --site-font-family: "Inter";
      --site-font-style4: "Regular" ;
      --site-font-style5: "Medium" ;
      --site-font-style6: "Sami Bold" ;
@@ -105,10 +105,7 @@ header{
      padding-right: 121px;
      margin-left: auto;
      margin-right: auto;
-     background-image: url(./img/bg.svg);
-     background-size: contain;
-     background-position: center center;
-     background-repeat: no-repeat;
+     background-image: url(../img/bg.svg);
 }
 main{
      width: 100%;
@@ -192,6 +189,7 @@ main{
 }
 
 .sign-up {
+     text-align: center;
      max-width: 178px;
      margin-top: 60px;
      margin-bottom: 65px;
@@ -205,14 +203,15 @@ main{
      font-style: var(--site-font-style5);
 }
 .sign-up-heading {
-     margin-right: 25px;
+     margin-right: 50px;
      font-size: 36px;
      line-height: 46px;
      font-family: var(--site-font-family);
      font-style: var(--site-font-style7);
 }
 .sign-up-text {
-     margin-bottom: 203px;
+     margin-right: 60px;
+     margin-bottom: 205px;
      font-size: 16px;
      line-height: 26px;
      font-family: var(--site-font-family);
@@ -251,6 +250,6 @@ only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and ( min-resolution: 192dpi),
 only screen and ( min-resolution: 2dppx) {
      header{
-          background-image:url(./img/bg@2x.svg);
+          background-image:url(../img/bg@2x.svg);
      }
 }
