@@ -34,9 +34,103 @@ img{
 
 .container{
      width: 100%;
-     max-width: 1200px;
+     max-width: 1250px;
      padding-left: 50px;
      padding-right: 50px;
+     padding-top: 50px;
+     padding-bottom: 50px;
      margin-left: auto;
      margin-right: auto;
+     color: #fff;
+}
+.site-container{
+     display: flex;
+     background-color: #f2f4fe;
+}
+/* ROOT  */
+:root{
+     --site-color: #ffff;
+     --site-font-weight4: 400 ;
+     --site-font-weight5: 500 ;
+     --site-font-weight6: 600 ;
+     --site-font-weight7: 700 ;
+     --site-font-family: "Inter";
+     --site-font-style4: "Regular" ;
+     --site-font-style5: "Medium" ;
+     --site-font-style6: "Sami Bold" ;
+     --site-font-style7: "Bold" ;
+}
+header{
+     width: 100%;
+     max-width: 570px;
+     height: 640px;
+     padding-left: 60px;
+     padding-right: 121px;
+     margin-left: auto;
+     margin-right: auto;
+     background-image: url(./img/bg.svg);
+}
+main{
+     width: 100%;
+     max-width: 570px;
+     height: 640px;
+     padding-left: 60px;
+     padding-right: 121px;
+     margin-left: auto;
+     margin-right: auto;
+     background-color: #aaa;
+     border-radius: 20px;
+}
+
+.sign-up {
+     max-width: 178px;
+     margin-top: 60px;
+     margin-bottom: 65px;
+     padding-right: 0;
+     border: 1px solid #fff;
+     padding: 5px 15px;
+     border-radius: 41px;
+     font-size: 14px;
+     line-height: 17px;
+     font-family: var(--site-font-family);
+     font-style: var(--site-font-style5);
+}
+.sign-up-heading {
+     margin-right: 25px;
+     font-size: 36px;
+     line-height: 46px;
+     font-family: var(--site-font-family);
+     font-style: var(--site-font-style7);
+}
+.sign-up-text {
+     margin-bottom: 203px;
+     font-size: 16px;
+     line-height: 26px;
+     font-family: var(--site-font-family);
+     font-style: var(--site-font-style4);
+     padding-right: 20px;
+}
+.sign-up-link {
+     text-decoration: none;
+     text-align: center;
+
+}
+.sign-up-link-text {
+     background-color: #4DC490;
+     padding: 23px 30px;
+     margin-right: -121px;
+     margin-left: -60px;
+     border-bottom-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+     font-family: var(--site-font-family);
+     font-style: var(--site-font-style7);
+     font-size: 19px;
+     line-height: 23px;
+     color: #fff;
+}
+.sign-up-link:hover{
+     opacity: 0.8;
+}
+.sign-up-link:active{
+     opacity: 0.6;
 }
