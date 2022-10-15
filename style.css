@@ -1,3 +1,42 @@
+@font-face {
+     font-family: './font/Inter';
+     src: url('./font/Inter-SemiBold.woff2') format('woff2'),
+     url('./font/Inter-SemiBold.woff') format('woff');
+     font-weight: 600;
+     font-style: normal;
+     font-display: swap;
+}
+
+@font-face {
+     font-family: './font/Inter';
+     src: url('./font/2') format('woff2'),
+     url('./font/') format('woff');
+     font-weight: 500;
+     font-style: normal;
+     font-display: swap;
+}
+
+@font-face {
+     font-family: './font/Inter';
+     src: url('./font/Inter-Bold.woff2') format('woff2'),
+     url('./font/Inter-Bold.woff') format('woff');
+     font-weight: bold;
+     font-style: normal;
+     font-display: swap;
+}
+
+@font-face {
+     font-family: './font/Inter';
+     src: url('./font/Inter-Regular.woff2') format('woff2'),
+     url('./font/Inter-Regular.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+     font-display: swap;
+}
+
+
+
+
 /* GLOBALL */
 
 html{
@@ -19,10 +58,6 @@ body{
      margin: 0;
      flex-direction: column;
      background-color: #fff;
-     color: #222;
-     font-family: "Arial" sans-serif;
-     font-size: 16px;
-     line-height: 1.5;
 }
 
 img{
@@ -54,7 +89,7 @@ img{
      --site-font-weight5: 500 ;
      --site-font-weight6: 600 ;
      --site-font-weight7: 700 ;
-     --site-font-family: "Inter";
+     --site-font-family: "./font/Inter";
      --site-font-style4: "Regular" ;
      --site-font-style5: "Medium" ;
      --site-font-style6: "Sami Bold" ;
