@@ -57,7 +57,7 @@ body{
      padding: 0;
      margin: 0;
      flex-direction: column;
-     background-color: #fff;
+     background-color:  #f2f4fe;
 }
 
 img{
@@ -65,6 +65,10 @@ img{
      height: auto;
 }
 
+*:focus{
+     outline: 1px dotted rgba(101, 90, 242, 1);
+     outline-offset: 3px;
+}
 /* CONTAINER  */
 
 .container{
@@ -72,15 +76,13 @@ img{
      max-width: 1250px;
      padding-left: 50px;
      padding-right: 50px;
-     padding-top: 50px;
-     padding-bottom: 50px;
+     margin-top: 30px;
      margin-left: auto;
      margin-right: auto;
      color: #fff;
 }
 .site-container{
      display: flex;
-     background-color: #f2f4fe;
 }
 /* ROOT  */
 :root{
@@ -113,8 +115,77 @@ main{
      padding-right: 121px;
      margin-left: auto;
      margin-right: auto;
-     background-color: #aaa;
+     background-color: #fff;
      border-radius: 20px;
+     color: black;
+
+}
+.signup-form {
+     width: 100%;
+     max-width: 570px;
+     /* padding: 55px; */
+     padding-top: 10px;
+     margin-top: 0;
+}
+.signup-form-heading {
+     font-size: 32px;
+     line-height: 42px;
+     font-family: var(--site-font-family);
+     font-style: var(--site-font-style6);
+     margin-bottom: 65px;
+}
+.signup-form-fields {
+     padding-right: 50px;
+     display: flex;
+     flex-direction:column;
+     margin-bottom: 65px;
+}
+.signup-form-field {
+     padding-top: 15px;
+     padding-bottom: 15px;
+     border: 0;
+     border-bottom: 1px solid #555555;
+     color: #555;
+     font-size: 16px;
+     line-height: 19px;
+     font-family: var(--site-font-family);
+     font-style: var(--site-font-style4);
+}
+.signup-form-field:focus{
+     border-color:#000;
+     color: #000;
+     font-weight: var(--site-font-style6);
+     font-size: 18px;
+}
+.signup-form-field:not(:last-child){
+     margin-bottom: 20px;
+}
+.signup-form-submit {
+     display: block;
+     width: 100%;
+     border: 0;
+     padding: 20px;
+     margin-bottom: 8px;
+     border-radius: 10px;
+     background-color: #655AF2;
+     color: #fff;
+     font-size: 16px;
+     font-style: var(--site-font-style6);
+     cursor: pointer;
+}
+.signup-form-notice {
+     font-size: 11px;
+     line-height: 15px;
+     text-align: center;
+     letter-spacing: 0.5px;
+     font-weight: var(--site-font-weight5);
+}
+.signup-form-notice-link {
+     color: rgba(240, 53, 53, 1);
+     font-weight: var(--site-font-weight5);
+     font-size: 11px;
+     line-height: 15px;
+     letter-spacing: 0.5px;
 }
 
 .sign-up {
